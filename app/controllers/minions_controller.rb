@@ -46,6 +46,6 @@ class MinionsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def minion_params
-      params.fetch(:minion, {})
+      params.fetch(:minion, {}).permit(:name)
     end
 end
