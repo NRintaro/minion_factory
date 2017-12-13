@@ -22,3 +22,6 @@
 
 # Ignore Gems.
 /vendor
+
+# Ignore lock ruby version file
+.ruby-version
